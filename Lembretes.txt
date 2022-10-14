@@ -1,3 +1,5 @@
 Mais sobre o commit
 
-Cada commit é uma versão
+Cada commit é uma versão.
+
+Comando que possibilita visualizar nome e email cadastrados no terminal git: git config --list
