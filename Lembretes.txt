@@ -1,4 +1,4 @@
-Mais sobre o commit
+Mais sobre o Git/GitHub
 
 Cada commit é uma versão.
 
