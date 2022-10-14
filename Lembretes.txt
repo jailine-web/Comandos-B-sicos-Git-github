@@ -12,3 +12,5 @@ Etapas:
 
 Etapa 01: Gerar uma chave SSH no próprio computador
 Etapa 02: Cadastrar essa chave no GitHub
+
+Link para guia para gerar a chave SSH no windows: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
