@@ -3,3 +3,12 @@ Mais sobre o commit
 Cada commit é uma versão.
 
 Comando que possibilita visualizar nome e email cadastrados no terminal git: git config --list
+
+SSH: É o protocolo para a comunicação de dados com segurança.
+
+Conexão do git por meio do protocolo SSH
+
+Etapas:
+
+Etapa 01: Gerar uma chave SSH no próprio computador
+Etapa 02: Cadastrar essa chave no GitHub
