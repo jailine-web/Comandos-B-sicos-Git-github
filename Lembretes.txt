@@ -53,6 +53,16 @@ EX: git remote add origin git@github.com:usuario
 
 >>End
 
+>>> Como atualizar novos commits 
+
+Salvar nova versão do projeto
+[git status (para saber como está o projeto)]
+
+1- Git add . (para jogar os arquivos para a área de stage)
+2- git commit -m "valor acrescentado"
+3- git push (Como não é a 1° x ele envia tudo pelo github direto)
+
+
 
 
 
