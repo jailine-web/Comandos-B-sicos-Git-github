@@ -70,8 +70,9 @@ git clone LinkDoRepositórioDesejado
 
 >>>End
 
+Apresenta as versões existentes: git log
 
-
+Verifica o histórico de versões(De forma resumida, até que versão está salvo): git log --oneline
 
 
 
