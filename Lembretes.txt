@@ -15,4 +15,4 @@ Etapa 02: Cadastrar essa chave no GitHub
 
 Link para guia para gerar a chave SSH no windows: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-As chaves SSH geralmente ficam salvas na pasta User/.SSH
+As chaves SSH geralmente ficam salvas na pasta User/Nome_usuario/.SSH
