@@ -15,4 +15,47 @@ Etapa 02: Cadastrar essa chave no GitHub
 
 Link para guia para gerar a chave SSH no windows: https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-As chaves SSH geralmente ficam salvas na pasta User/Nome_usuario/.SSH
+As chaves SSH geralmente ficam salvas na pasta User/Nome_usuario/.SSH. Após criação basta copiar e colar essa chave no GitHub por meio do menu setting/SSH key.
+
+Subindo pasta local para o gitHub: <<Precisa do VScode>>
+
+1- Criar a pasta onde o projeto será criado
+>> Com a pasta e o projeto criados
+
+2- Abra a o terminal gti bash na pasta
+>> Clicando com o botão direito em Gitbash here
+
+3- Digite o comando: git init
+>> Comando que cria um repositório git nesta pasta(será gerenciada pelo git)
+
+4- Digita: git add .
+>> Envia os arquivos para uma área temporária p/ser salva na próxima versão
+
+5- Digite: git commit -m "Mensagem-explicativa"
+>> Salva as alterações enviadas
+
+#Comando: git status --> verifica o estado das alterações 
+
+6- Digite: git branch -M main
+<<Para garantir que seja o main e não o master(Só para garantir)
+
+7- Criar um repositório no GitHub
+>>Em new repository(cria um projeto vazio)
+
+8- Enviar dados do repositorio local para o remoto
+>> SSH: no repositório recém criado clica no botão ssh e copia o comando
+EX: git remote add origin git@github.com:usuario
+
+9- Cola o comando no gitbash e executa
+
+10- Envia os dados para o repositório remoto: git push -u origin main
+>> Digita yes na mensagem exibida e enter
+
+>>End
+
+
+
+
+
+
+
