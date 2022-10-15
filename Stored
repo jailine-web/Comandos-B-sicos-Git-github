@@ -3,3 +3,5 @@ Comando que tira os arquivos do staged: git reset
 
 Adiciona apenas um arquivo no staged: git add nomeDoArquivo.extensao
 
+Comando que apresenta a diferença entre as versões: git diff nomeDoArquivo 
+>> Pode ser vista graficamente no VScode
