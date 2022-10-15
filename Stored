@@ -1,0 +1,5 @@
+
+Comando que tira os arquivos do staged: git reset 
+
+Adiciona apenas um arquivo no staged: git add nomeDoArquivo.extensao
+
