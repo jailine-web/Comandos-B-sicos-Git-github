@@ -2,7 +2,19 @@ Comandos git:
 
 Definição:
 
-Git checkout permite modificar temporariamente os arquivos do projeto ao estado anterior de um commit
+Git checkout permite modificar temporariamente os arquivos do projeto ao estado do commit anterior, retirando as alterações realizadas nos arquivos(antes do head)
+
+Comando que retorna a versão anterior do commit(um commit antes do head): git checkout codigo_do_commit_desejado
+>> Comando similar que realiza a mesma funcionalidade: git checkout HEAD~1  
+OBS: Inserindo o comando: HEAD~2 (volta ao estado do antepenúltimo commit)
+
+Para voltar ao estado original do último commit(da branch main) é necessário inserir o seguinte comando:git checkout main
+Não modificar os arquivos qnd utilizar os checkouts antes de voltar a branch
+
+Comandos utilizados para limpar modificações realizadas por engano.
+
+git reset >> Comando que retira os arquivos da área de Staged(logo após é necessário digitar o comando clear abaixo).
+git clear -df
+git checkout -- . (Comando que limpa todas ás alterações.
 
 
-Comando que retorna a versão anterior do commit: git checkout 
