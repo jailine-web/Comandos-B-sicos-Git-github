@@ -22,3 +22,14 @@ git checkout -- . (Comando que limpa todas ás alterações.
 
 GITIGNORE arquivos que não devem ser salvos pelo git, ou seja, é um arquivo que não deve ser salvo pelo Git. Ficando dentro da pasta .gitignore
 Geralmente o arquivo .gitignore fica na pasta principal do projeto, mas também pode ser insirida em subpastas.
+
+>> EXEMPLOS DE ARQUIVOS COMUNS QUE NÃO DEVEM SER SALVOS PELO GIT <<
+
+>>Arquivos compilados
+# linguagens compiladas(C , C ++ , C# , Java ...) 
+
+>>Arquivos de bibliotecas externas usadas no projeto
+# Bibliotecas externas 
+
+>>Arquivos de configurações da IDE
+>>Arquivos de configuração do seu sistema
