@@ -41,4 +41,4 @@ Comando: git reset --soft HEAD~1
 Comando: git reset --hard <código do commit>
 
 #Volta o projeto ao estado do pénúltimo commit
-Comando: git reset --hard HEAD~1
+Comando: git reset --hard HEAD~1 Atenção ação destrutiva
