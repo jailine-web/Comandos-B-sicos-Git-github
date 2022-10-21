@@ -42,3 +42,6 @@ Comando: git reset --hard <código do commit>
 
 #Volta o projeto ao estado do pénúltimo commit
 Comando: git reset --hard HEAD~1 Atenção ação destrutiva
+
+Recuperar o que já está no github
+Comando git puul origin main
