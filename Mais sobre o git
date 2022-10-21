@@ -33,3 +33,6 @@ Geralmente o arquivo .gitignore fica na pasta principal do projeto, mas também 
 
 >>Arquivos de configurações da IDE
 >>Arquivos de configuração do seu sistema
+
+>> Apagar o commit sem perder as alterações já feitas <<
+Comando: git reset --soft HEAD~1
