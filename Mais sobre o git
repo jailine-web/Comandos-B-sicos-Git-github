@@ -36,3 +36,9 @@ Geralmente o arquivo .gitignore fica na pasta principal do projeto, mas também 
 
 >> Apagar o commit sem perder as alterações já feitas <<
 Comando: git reset --soft HEAD~1
+
+>> Deletar commits e também modificações nos arquivos <<
+Comando: git reset --hard <código do commit>
+
+#Volta o projeto ao estado do pénúltimo commit
+Comando: git reset --hard HEAD~1
