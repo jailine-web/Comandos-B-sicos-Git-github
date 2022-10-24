@@ -3,3 +3,9 @@ Conflitos de históricos no mesmo arquivo(merge)
 >> Assumindo que a mesma linha foi alterada pelo repositório remoto e repositoório local é necessário
 decidir qual alteração irá ficar(modificando o arquivo(linha) para que os históricos fiquem iguais ) e depois realizar o commit e o push
 
+>> AÇÃO DESTRUTIVA (todos os commit apagados por esses comando são excluídos permanentemente)<<
+
+git reset -- hard códigoDoCommnit (Comando que destroe as alterações no repositório local até o commit especificado no código)
+Para destruir os commits no repositório remoto também basta dá o comando: git push -f
+
+
