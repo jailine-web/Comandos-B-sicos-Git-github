@@ -8,4 +8,5 @@ decidir qual alteração irá ficar(modificando o arquivo(linha) para que os his
 git reset -- hard códigoDoCommnit (Comando que destroe as alterações no repositório local até o commit especificado no código)
 Para destruir os commits no repositório remoto também basta dá o comando: git push -f
 
+>> Fork(Apontar o projeto para outro repositório) <<
 
